@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 219, 250);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+    margin: 20px auto;
+}
+
+main {
+    max-width: 500px;
+    max-height: 400px;
+    padding: 15px;
+    margin: auto;
+    
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+main .input {
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+main .btn {
+    margin: 10px 0px;
+    width: 70px;
+    height: 25px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+}
